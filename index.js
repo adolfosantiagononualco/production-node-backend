@@ -1,5 +1,9 @@
-require('dotenv').config();
+
+
+import { dotenv } from 'dotenv';
 import { createServer } from 'http';
+
+dotenv.config();
 
 function requestController(){
     console.log('HOLA mundo!!!')
