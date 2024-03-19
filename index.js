@@ -1,11 +1,9 @@
-
-
-const http = require('http')
+import { createServer } from 'http';
 
 function requestController(){
-    console.log('HOLA MUNDO')
+    console.log('HOLA mundo!!!')
 }
 
-const server = http.createServer(requestController);
+const server = createServer(requestController);
 
 server.listen(3000)

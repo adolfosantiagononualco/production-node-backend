@@ -1,0 +1,16 @@
+{
+  "name": "node-js-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "adolfo diaz",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
