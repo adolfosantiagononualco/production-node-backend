@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { createServer } from 'http';
 
 function requestController(){
@@ -6,4 +7,8 @@ function requestController(){
 
 const server = createServer(requestController);
 
-server.listen(3000)
+const PORT = process.env.PORT 
+
+server.listen(PORT, function(){
+    console.log('Aplcacion corriendo en el puerto: ' + PORT);
+});
