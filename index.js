@@ -1,6 +1,7 @@
 
 
-import { dotenv } from 'dotenv';
+import pkg from 'dotenv';
+const { dotenv } = pkg;
 import { createServer } from 'http';
 
 dotenv.config();
